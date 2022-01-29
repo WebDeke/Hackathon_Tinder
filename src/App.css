@@ -1,4 +1,8 @@
 .App {
+  text-align: left;
+}
+
+Card.Title {
   text-align: center;
 }
 
