@@ -25,10 +25,10 @@ function App() {
           <Col>
             <Card>
               <Card.Body>
-                <Card.Title>
+                <Card.Title id="home-title">
                   Form your dream team with HackerMatch
                 </Card.Title>
-                <Card.Text>
+                <Card.Text className="mb-0">
                   HackerMatch is a platform that helps you find your perfect hackathon team.
                   Our intuitive sorting methods allow you to find teammates that complement your skillsets and requirements.
                 </Card.Text>
@@ -38,7 +38,7 @@ function App() {
           <Col>
             <Form>
               <Form.Group className="mb-3" controlId="formBasicEmail">
-                <Form.Label>Email address</Form.Label>
+                <Form.Label>Email</Form.Label>
                 <Form.Control type="email" placeholder="Enter email" />
               </Form.Group>
               <Form.Group className="mb-3" controlId="formBasicPassword">
@@ -46,12 +46,13 @@ function App() {
                 <Form.Control type="password" placeholder="Password" />
               </Form.Group>
               <Button variant="primary" type="submit">
-                Submit
+                Login
               </Button>
             </Form>
           </Col>
         </Row>
       </Container>
+
     </div>
   );
 }

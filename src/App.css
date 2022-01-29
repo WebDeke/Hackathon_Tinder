@@ -2,8 +2,8 @@
   text-align: left;
 }
 
-Card.Title {
-  text-align: center;
+#home-title {
+  text-align: left;
 }
 
 .App-logo {
