@@ -12,6 +12,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
+      <main>
+        <Routes>
+          <Route path="/profile" component={Profile} />
+        </Routes>
+      </main>
       <Navbar bg="dark" variant="dark">
         <Container>
           <Navbar.Brand>
